@@ -3,8 +3,8 @@ resource "aws_instance" "TF-Cloud" {
   instance_type = "t2.micro"
   key_name =  "parab-terraform"
  # vpc_security_group_ids = ["sg-08e140487c45cdd39"]
-  /*tags = {
+  tags = {
     Name = "TF-Cloud"
   }
-*/
+
 }
